@@ -14,3 +14,4 @@
 - Find the libmysql.dll and libmysqld.dll files in the downloaded file.
 - Copy the files(libmysql.dll, libmysqld.dll) in Qt Path. ex) c:/Qt/Qt.5.12.3/5.12.3/msvc2017/bin
 - When deploying an application, the file(libmysql.dll) must be present in .exe file path.
+- For more information, check https://blog.naver.com/browniz1004/222073633440

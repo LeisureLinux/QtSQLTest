@@ -14,7 +14,7 @@
 - 다운로드한 압축파일에서 libmysql.dll 과 libmysqld.dll 파일을 찾습니다.
 - Qt가 설치된 경로 (ex)(c:/Qt/Qt.5.12.3/5.12.3/msvc2017/bin) 안에 libmysql.dll 과 libmysqld.dll 파일을 복사해주세요.
 - 어플리케이션 배포 시 exe파일 경로에 libmysql.dll의 파일이 반드시 있어야합니다.
-
+- 자세한 내용은 https://blog.naver.com/browniz1004/222073633440 를 확인하세요.
 
 
 
