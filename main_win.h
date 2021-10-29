@@ -15,7 +15,7 @@ enum SQL_TYPE
 };
 
 namespace Ui {
-class MainWindow;
+	class MainWindow;
 }
 
 class MainWindow : public QMainWindow
