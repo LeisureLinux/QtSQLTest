@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>LeisureLinux Qt SQL Demo</string>
+   <string>LeisureLinux QtSQL Demo</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_3">
@@ -20,7 +20,7 @@
       <item row="0" column="0">
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>DB</string>
+         <string>数据库类型：</string>
         </property>
        </widget>
       </item>
@@ -33,21 +33,21 @@
       <item row="0" column="2">
        <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>DBName</string>
+         <string>名称</string>
         </property>
        </widget>
       </item>
       <item row="1" column="0">
        <widget class="QLabel" name="label_Server">
         <property name="text">
-         <string>Server</string>
+         <string>服务器</string>
         </property>
        </widget>
       </item>
       <item row="1" column="2">
        <widget class="QLabel" name="label_UserName">
         <property name="text">
-         <string>UserName</string>
+         <string>用户名</string>
         </property>
        </widget>
       </item>
@@ -57,7 +57,7 @@
       <item row="2" column="2">
        <widget class="QLabel" name="label_Password">
         <property name="text">
-         <string>Password</string>
+         <string>密码</string>
         </property>
        </widget>
       </item>
@@ -71,7 +71,7 @@
       <item row="2" column="0">
        <widget class="QLabel" name="label_Port">
         <property name="text">
-         <string>Port</string>
+         <string>端口</string>
         </property>
        </widget>
       </item>
@@ -164,7 +164,7 @@
       <item row="0" column="0">
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Command</string>
+         <string>要执行的SQL：</string>
         </property>
        </widget>
       </item>

@@ -1,17 +1,16 @@
-# SqlTest
-> *언어 변환 : [영어](README.en.md) , [한국어](README.md)*
-
-- This is an example of connecting to DB and checking data with QSqlDatabase basic class.
-- You can use MSSQL/MYSQL/SQLITE.
+# QtSQLTest
+- An example to connect and check with QSqlDatabase
+- Implemented DB type: MySQL/MSSql/Sqlite
 
 ## Tested Environment
-- Qt 5.12.3 / Windows10 / MSVC2017 32bit
-- QtCreator
+- Qt 5.12.2 / Ubuntu 21.04
+- qmake 3.1 / gmake 4.3
 
-## Caution
-- If an error occurs(driver not loaded.) when compiling MYSQL in QtCreate, you must add the mysql library file.(libmysql.dll)
-- (https://dev.mysql.com/downloads/mysql/) Download according to the compiler bit.
-- Find the libmysql.dll and libmysqld.dll files in the downloaded file.
-- Copy the files(libmysql.dll, libmysqld.dll) in Qt Path. ex) c:/Qt/Qt.5.12.3/5.12.3/msvc2017/bin
-- When deploying an application, the file(libmysql.dll) must be present in .exe file path.
-- For more information, check https://blog.naver.com/browniz1004/222073633440
+## Pre-requists
+- Ubuntu package: libqt5sql-mysql
+
+## Install
+- $ qmake
+- $ make -f build/Makefile
+- $ sudo make -f build/Makefile install
+- Cleanup: $ make -f build/Makefile clean
