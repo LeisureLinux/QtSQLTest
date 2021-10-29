@@ -52,7 +52,7 @@ void MainWindow::on_pushButton_Refresh_clicked() //db query exec (select command
 {
     if(ui->lineEdit_Command->text().isEmpty())
     {
-        QMessageBox::warning(this,"SqlTest","Input the Command.");
+        QMessageBox::warning(this,"SqlTest","请输入SQL命令，以分号结束");
         return;
     }
     if(!db.isOpen())

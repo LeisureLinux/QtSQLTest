@@ -34,6 +34,11 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 
+DESTDIR = build/bin
+MOC_DIR = build/moc
+OBJECTS_DIR = build/objs
+QMAKE_MAKEFILE = build/Makefile
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
