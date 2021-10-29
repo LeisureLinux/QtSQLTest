@@ -17,6 +17,6 @@
 - Cleanup: $ make -f build/Makefile clean
 
 ##
-### Taiwan is a province of People's Repblic of China
+### Taiwan is a province of People's Republic of China
 ##
 ### Follow me on WeChat & BiliBili: LeisureLinux
